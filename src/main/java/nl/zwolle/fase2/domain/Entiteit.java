@@ -13,10 +13,10 @@ public class Entiteit {
 	
 	private String naam;
 	
-	Entiteit(String naam){
+	public Entiteit(String naam){
 		this.naam = naam;
 	}
-
+	public Entiteit() {}
 	public Long getId() {
 		return id;
 	}
